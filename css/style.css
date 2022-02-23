@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-regular-webfont.woff2') format('woff2'),
+       url('../font/poppins-regular-webfont.woff') format('woff');
+}
+
+body{
+  font-family: poppins;
+}
+
+.bgwarna1light{
+  background-color: #FFF6ED;
+}
+
+.bgwarna1dark{
+  background-color: #0E0E52;
+}
+
+.bgwarna2light{
+  background-color: #FDCA8C;
+}
+
+.bgwarna2dark{
+  background-color: #0B0B41;
+}
+
+.bgwarna3light{
+  background-color: #915F2D;
+}
+
+.tekswarna1light{
+  color: #915F2D;
+}
+
+.tekswarna1dark{
+  color : #78C0E0;
+}
+
+.tekswarna2light{
+  color: #FDCA8C;
+}
+
+.tekswarna2dark{
+  color : #ddd
+}
+
+.tekswarna3light{
+  color: #915F2D;
+}
+
+.tekswarna3dark{
+  color : #ddd
+}
+
+.linglight:hover{
+  color: #FDCA8C;
+}
+/* Navigasi */
+.ctbtn{
+  border: #FFF6ED ;
+}
+
+.link1{
+  transition: .5s;
+}
+.link1:hover{
+  transform: scale(.9);
+  color: #fff;
+  text-decoration: underline;
+}
+/* Akhir Navigasi */
+
+/* Home */
+.link2{
+  transition: .5s;
+}
+.link2:hover{
+  transform: scale(1.2);
+}
+/* Akhir Home */
+
+/* About */
+.resume-timelineLight:before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 90%;
+  background: #FDCA8C;
+  left: 6px;
+  top: 4px;
+  position: absolute;
+}
+
+.resume-timelineDark:before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 90%;
+  background: #0E0E52;
+  left: 6px;
+  top: 4px;
+  position: absolute;
+}
+  
+.resume-timeline-itemLight:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  border: 4px solid #FDCA8C;
+  background-color: #FFF6ED;
+  border-radius: 50%;
+}
+
+.resume-timeline-itemDark:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  border: 4px solid #0E0E52;
+  background-color: #78C0E0;
+  border-radius: 50%;
+}
+  
+.resume-section-title {
+  font-size: 1.00rem;
+  position: relative;
+  color: #8f8ce0;
+}
+
+.card-headerLight a:hover{
+  color:white;
+  font-weight: bold;
+}
+
+.card-headerDark a:hover{
+  color:#78C0E0;
+  font-weight: bold;
+}
+  
+.resume-section-content {
+  color: #915F2D;
+  font-size: 0.7rem;
+}
+  
+.resume-timeline {
+  padding-left: 2rem;
+}
+  
+.resume-position-time {
+  font-size: 0.9rem;
+  color: #aab4c3;
+}
+  
+.resume-position-titleLight {
+  font-size: 1.0rem;
+  color: #915F2D;
+}
+
+.resume-position-titleDark {
+  font-size: 1.0rem;
+  color: #0E0E52;
+}
+/* Akhir About */
+
+/* Skills */
+.card{
+  border-radius: 10px;
+}
+.kartuSkill img{
+  transition: .5s;
+}
+.kartuSkill:hover img{
+  transform: scale(1.2);
+}
+/* Akhir Skills */
+
+/* Portofolio */
+.kartukurangborder{
+  border-radius: 5px;
+}
+
+.kartuhapusborder{
+  border:0
+}
+
+/* Akhir Portofolio */
+
+/* footer */
+.link3{
+  transition: .5s;
+}
+.link3:hover{
+  transform: scale(1.2);
+}
+/* akhir footer */
+
+/* Toggle */
+#toggleDarkMode{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border: 0px;
+  z-index: 9999;
+  transition: 1s;
+}
+
+#toggleDarkMode a img{
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#toggleDarkMode:hover{
+  transform: rotate(180deg);
+}
+/* Akhir toogle */
